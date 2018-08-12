@@ -18,3 +18,14 @@ fuction playSong(){
 	song.play(); //play the song
 }
 
+fuction playOrPauseSong(){
+	if(song.paused){
+		song.play();
+		$("#play img").attr("src", "pause.png");
+	}
+	else{
+		song.pause();
+		$("play img").attr("src","play.png")
+	}
+}
+
