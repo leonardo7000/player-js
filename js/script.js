@@ -1,7 +1,7 @@
 var songs = ["song1.mp3","song2.mp3","song3.mp3","song4.mp3","song5.mp3",];
 var poster = ["poster1.jpg","poster2.jpg","poster3.jpg","poster4.jpg","poster5.jpg"];
 
-var songTitle = document.getElementById("SongTitle");
+var songTitle = document.getElementById("songTitle");
 var fillBar = document.getElementById("fill");
 
 var song = new Audio();
@@ -39,11 +39,14 @@ song.addEventListener('timeupdate', function(){
 function next(){
 
 	currentSong++;
-	if(currentSong > 2){
+	if(currentSong > 4){
 		currentSong = 0;
 	}
 	playSong();
+	$("#play img").attr("src","img/pause.png");
+	$("#image img").attr("src",poster[currentSong]);
 }
+
 
 
 
