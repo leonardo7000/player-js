@@ -13,7 +13,7 @@ function playSong(){
 	
 	song.src = songs[currentSong]; //set the srcof 0 song
 
-	songTitle.textContent = songs[currentSongs]; //set the title
+	songTitle.textContent = songs[currentSong]; //set the title
 
 	song.play(); //play the song
 }
@@ -21,11 +21,37 @@ function playSong(){
 function playOrPauseSong(){
 	if(song.paused){
 		song.play();
-		$("#play img").attr("src", "pause.png");
+		$("#play img").attr("src","img/pause.png");
 	}
 	else{
 		song.pause();
-		$("play img").attr("src","play.png")
+		$("play img").attr("src","img/play.png")
 	}
 }
+ 
+song.addEventListener('timeupdate', function(){
+	
+	var position = song.currentTime / song.duration;
+
+	fillBar.style.width = position * 100 + '%';
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
