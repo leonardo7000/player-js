@@ -48,7 +48,17 @@ function next(){
 	$("#bg img").attr("src",poster[currentSong]);
 }
 
+function pre(){
 
+	currentSong--;
+	if(currentSong < 0){
+		currentSong = 4;
+	}
+	playSong();
+	$("#play img").attr("src","img/pause.png");
+	$("#image img").attr("src",poster[currentSong]);
+	$("#bg img").attr("src",poster[currentSong]);
+}
 
 
 
