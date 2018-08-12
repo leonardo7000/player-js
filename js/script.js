@@ -9,7 +9,7 @@ var currentSong = 0; //it point to the current song
 
 window.onload = playSong; // it will call the func, when window is load
 
-fuction playSong(){
+function playSong(){
 	
 	song.src = songs[currentSong]; //set the srcof 0 song
 
@@ -18,7 +18,7 @@ fuction playSong(){
 	song.play(); //play the song
 }
 
-fuction playOrPauseSong(){
+function playOrPauseSong(){
 	if(song.paused){
 		song.play();
 		$("#play img").attr("src", "pause.png");
