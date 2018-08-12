@@ -25,7 +25,7 @@ function playOrPauseSong(){
 	}
 	else{
 		song.pause();
-		$("play img").attr("src","img/play.png")
+		$("#play img").attr("src","img/play.png")
 	}
 }
  
@@ -35,6 +35,15 @@ song.addEventListener('timeupdate', function(){
 
 	fillBar.style.width = position * 100 + '%';
 });
+
+function next(){
+
+	currentSong++;
+	if(currentSong > 2){
+		currentSong = 0;
+	}
+	playSong();
+}
 
 
 
