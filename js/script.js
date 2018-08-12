@@ -45,6 +45,7 @@ function next(){
 	playSong();
 	$("#play img").attr("src","img/pause.png");
 	$("#image img").attr("src",poster[currentSong]);
+	$("#bg img").attr("src",poster[currentSong]);
 }
 
 
