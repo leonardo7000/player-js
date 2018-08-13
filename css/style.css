@@ -30,7 +30,8 @@ body {
 }
 
 #main {
-	width: 25%;
+	width: 20%;
+	height: 370px;
 	background-color: #eeeff5;
 	border-radius: 15px;
 	position: absolute;
@@ -53,9 +54,77 @@ body {
 	color: #333;
 }
 
+#topMenu {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px 15px 0 0;
+	line-height: 40px;
+	position: absolute;
+	top: 4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+#topButton1 {
+	width: 15px;
+	height: 15px;
+	left: 30%;
+	background: none;
+	color: #fff;
+	border: none;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+#topButton2 {
+	width: 15px;
+	height: 15px;
+	left: 30%;
+	background: none;
+	border: none;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#topButton3 {
+	width: 15px;
+	height: 15px;
+	left: 30%;
+	background: none;
+	color: #fff;
+	border: none;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+}
+
+#burgerMenu {
+	width: 15px;
+	height: 15px;
+	left: 30%;
+	background: none;
+	color: #888aa0;
+	border: none;
+	position: absolute;
+	top: 50%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+}
+
 #songTitle {
-	width: 300px;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
 	text-align: center;
+	line-height: 40px;
 	font-family: monospace;
 	font-size: 18px;
 	position: absolute;
@@ -68,15 +137,18 @@ body {
 	height: 50px;
 	width: 100%;
 	margin-top: 50px;
-	position: relative;
-	top: 10%;
+	position: absolute;
+	background-color: #eeeff5;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
 }
 
-#play,#next,#pre {
-	width: 50px;
-	height: 50px;
+
+#play,#next,#pre,#link,#like {
+	width: 40px;
+	height: 40px;
 	border: 0;
 	background-color: #60558f;
 	border-radius: 50%;
@@ -86,18 +158,43 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
 }
 
+#link {
+	width: 23px;
+	height: 23px;
+	left: 10%;
+	background-color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
 #next {
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	left: 70%;
 }
 
 #pre {
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	left: 30%;
+}
+
+#like {
+	width: 23px;
+	height: 23px;
+	left: 90%;
+	background-color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+#like img {
+	border: 0;
 }
 
 #play img, #next img, #pre img {
@@ -108,29 +205,30 @@ body {
 }
 
 #seek-bar {
-	width: 250px;
-	height: 5px;
+	width: 100%;
+	height: 8px;
 	background-color: #fff;
 	display: flex;
-	border-radius: 50px;
 	margin-left: 25px;
 	cursor: pointer;
-	align-items: flex-start; //?
-
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 65%;
 }
 
 #fill {
-	height: 5px;
+	height: 8px;
 	background-color: red;
-	border-radius: 20px;
 }
 
 #handle {
 	width: 8px;
 	height: 8px;
 	background-color: lightgrey;
+	background-image: url("../img/handle.png");
 	border-radius: 50%;
-	margin-left: -5px;
+	margin-left: 4px;
 	transform: scale(2);
 }
 

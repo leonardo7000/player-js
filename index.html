@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Audio Player</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">	
 	
 </head>
 <body>
@@ -16,19 +17,29 @@
 		<div id="image">
 			<img src="poster1.jpg">
 		</div>
+		<div id="topMenu">
+			<button id="topButton1"><i class="fas fa-sync-alt fa-xm"></i></button>
+			<button id="topButton2"><i class="fas fa-random fa-xm"></i></button>
+			<button id="topButton3"><i class="fas fa-redo-alt fa-xm"></i></button>
+			<button id="burgerMenu"><i class="fas fa-bars fa-lg"></i></button>
+		</div>
+		<div id="songTitle">Demo</div>
+		<div id="seek-bar">
+				<div id="fill"></div>
+				<div id="handle">
+
+
+		</div>
 		<div id="player">
-			<div id="songTitle">Demo</div>
 			<div id="buttons">
+				<button id="link"><img src="img/link.png"></button>
 				<button id="pre" onclick="pre()"><img src="img/pre.png" height="90%" width="90%"></button>
 				<button id="play" onClick="playOrPauseSong()"><img src="img/play.png"></button>
 				<button id="next" onclick="next()"><img src="img/next.png" height="90%" width="90%"></button>
+				<button id="like"><img src="img/like.png"></button>
 			</div>
 
-			<div id="seek-bar">
-				<div id="fill"></div>
-				<div id="handle"><i class="fas fa-volume-up"></i>
-
-</div>
+			
 			</div>
 		</div>
 	</div>
