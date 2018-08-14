@@ -125,7 +125,7 @@ body {
 	color: #fff;
 	text-align: center;
 	line-height: 40px;
-	font-family: monospace;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 	position: absolute;
 	top: 60%;
@@ -174,13 +174,13 @@ body {
 #next {
 	width: 25px;
 	height: 25px;
-	left: 70%;
+	left: 65%;
 }
 
 #pre {
 	width: 25px;
 	height: 25px;
-	left: 30%;
+	left: 35%;
 }
 
 #like {
@@ -264,12 +264,13 @@ body {
 
 #headList {
 	display: inline-block;
-	margin-left: 23%;
+	margin-left: 28%;
 }
 
 .h2 {
-	font-family: monospace, sans-serif;
-	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
 	color: #655a92;
 }
 
@@ -324,7 +325,7 @@ body {
 	padding-top: 3px;
 	padding-bottom: 3px;
 	line-height: 40px;
-	font-family: monospace;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 	border-bottom: 0.5px solid lightgrey;
 	position: relative;
