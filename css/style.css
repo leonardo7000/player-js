@@ -36,7 +36,7 @@ body {
 	border-radius: 15px;
 	position: absolute;
 	top: 22%;
-	left: 38%;
+	left: 40%;
 	transform: translate(-50%; -50%);
 	z-index: 999;
 }
@@ -332,3 +332,43 @@ body {
 	left: 88%;
 	transform: translate(-50%, -50%);
 }
+
+@media (min-width: 576px) {
+    #bg {
+        width: 100%;
+    }
+    #main, #tracklist  {
+       width: 80%;
+
+    }
+    
+}
+
+@media (min-width: 577px) {
+    #bg {
+        width: 100%;
+    }
+     #main, #tracklist  {
+       width: 250px;
+   }
+}
+
+
+@media (min-width: 480px) and (max-width:576px) {
+    #bg,#bg img,#blackLayer {
+        display: none;
+    }
+   #main, #tracklist  {
+       width: 250px;
+   }
+
+@media (min-width: 479px){
+  	 #bg,#bg img,#blackLayer {
+        display: none;
+    }
+    #main, #tracklist  {
+       width: 250px;
+      
+    }
+}
+
