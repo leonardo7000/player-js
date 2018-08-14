@@ -334,12 +334,11 @@ body {
 	width: 23px;
 	height: 23px;
 	left: 10%;
-	background-color: #fff;
+	background-color: #eeeff5;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: #fff;
 	border-radius: 50%;
 	outline: none;
 	cursor: pointer;
@@ -357,7 +356,7 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: #fff;
+	background-color: #eeeff5;
 	border-radius: 50%;
 	outline: none;
 	cursor: pointer;
