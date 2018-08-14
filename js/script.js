@@ -63,14 +63,29 @@ function pre(){
 
 
 
-
-
-
-
-
-
-
-
+$(document).ready(function(){  
+          
+            $('#burgerMenu').click(function(){  
+                $.ajax({  
+                    url: "musicList.html",  
+                    cache: false,  
+                    success: function(html){  
+                        $("#content").html(html);  
+                    }  
+                });  
+            });  
+              
+            $('#player').click(function(){  
+                $.ajax({  
+                    url: "index.html",  
+                    cache: false,  
+                    success: function(html){  
+                        $("#content").html(html);  
+                    }  
+                });  
+            });  
+              
+        });
 
 
 

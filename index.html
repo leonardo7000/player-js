@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Audio Player</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
 </head>
 <body>
@@ -21,7 +22,7 @@
 			<button id="topButton1"><i class="fas fa-sync-alt fa-xm"></i></button>
 			<button id="topButton2"><i class="fas fa-random fa-xm"></i></button>
 			<button id="topButton3"><i class="fas fa-redo-alt fa-xm"></i></button>
-			<button id="burgerMenu"><i class="fas fa-bars fa-lg"></i></button>
+			<button id="burgerMenu" onclick="$('#burgerMenu').click()"><i class="fas fa-bars fa-lg"></i></button>
 		</div>
 		<div id="songTitle">Demo</div>
 		<div id="seek-bar">
@@ -44,6 +45,6 @@
 		</div>
 	</div>
 	<script src="js/script.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 </body>
 </html>
