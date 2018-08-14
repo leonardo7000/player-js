@@ -232,3 +232,137 @@ body {
 	transform: scale(2);
 }
 
+#head {
+	width: 100%;
+	height: 50px;
+	border-radius: 15px 15px 0 0;
+	line-height: 40px;
+	position: absolute;
+	display: inline-block;
+	top: 4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#btnBack {
+	display: inline-block;
+	top: 4%;
+	left: 50%;
+}
+
+#backToPlayer {
+	width: 23px;
+	height: 23px;
+	left: 10%;
+	background-color: #fff;
+	text-align: center;
+	margin: 0 0 0 10px;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+}
+
+#headList {
+	display: inline-block;
+	margin-left: 23%;
+}
+
+.h2 {
+	font-family: monospace, sans-serif;
+	font-size: 18px;
+	color: #655a92;
+}
+
+#btnList1 {
+	width: 90%;
+	display: block;
+	top: 60%;
+	left: 50%;
+	transform: translate(10%, 120%);
+
+}
+
+#btnList2 {
+	width: 90%;
+	display: block;
+	top: 60%;
+	left: 50%;
+	transform: translate(10%, 120%);
+
+}
+#btnList3 {
+	width: 90%;
+	display: block;
+	top: 60%;
+	left: 50%;
+	transform: translate(10%, 120%);
+
+}
+#btnList4 {
+	width: 90%;
+	display: block;
+	top: 60%;
+	left: 50%;
+	transform: translate(10%, 120%);
+
+}
+#btnList5 {
+	width: 90%;
+	display: block;
+	top: 60%;
+	left: 50%;
+	transform: translate(10%, 120%);
+
+}
+
+#songTitleList {
+	width: 90%;
+	height: 50px;
+	color: #655a92;
+	font-weight: bold; 
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 40px;
+	font-family: monospace;
+	font-size: 18px;
+	border-bottom: 0.5px solid lightgrey;
+	position: relative;
+}
+
+#linkList {
+	width: 23px;
+	height: 23px;
+	left: 10%;
+	background-color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 77%;
+	transform: translate(-50%, -50%);
+}
+
+#likeList {
+	width: 23px;
+	height: 23px;
+	left: 90%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 88%;
+	transform: translate(-50%, -50%);
+}
