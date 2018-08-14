@@ -23,13 +23,12 @@
 			<button id="topButton1"><i class="fas fa-sync-alt fa-xm"></i></button>
 			<button id="topButton2"><i class="fas fa-random fa-xm"></i></button>
 			<button id="topButton3"><i class="fas fa-redo-alt fa-xm"></i></button>
-			<button id="burgerMenu" onclick="$('#burgerMenu').click()"><i class="fas fa-bars fa-lg"></i></button>
+			<button id="burgerMenu" onclick="showTracklist();"><i class="fas fa-bars fa-lg"></i></button>
 		</div>
 		<div id="songTitle">Demo</div>
 		<div id="seek-bar">
 				<div id="fill"></div>
 				<div id="handle"></div>
-
 		<div id="player">
 			<div id="buttons">
 				<button id="link"><img src="img/link2.png"></button>
@@ -42,6 +41,25 @@
 			
 			</div>
 		</div>
+	</div>
+
+	<div id="tracklist" style="display: none;">
+		<div id="head">
+			<div id="btnBack">
+				<button id="backToPlayer" onclick="showPlayer();"><img src="img/backToPlayer.png"></button>
+			</div>
+			<div id="headList"><h2 class="h2">Playlist</h2></div>
+
+
+		</div>
+
+		<div id="songs">
+
+
+		</div>
+
+
+
 	</div>
 	<script src="js/script.js"></script>
 	

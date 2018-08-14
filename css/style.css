@@ -29,7 +29,7 @@ body {
 	z-index: 99;
 }
 
-#main {
+#main, #tracklist {
 	width: 20%;
 	height: 370px;
 	background-color: #eeeff5;
@@ -174,13 +174,13 @@ body {
 #next {
 	width: 25px;
 	height: 25px;
-	left: 65%;
+	left: 70%;
 }
 
 #pre {
 	width: 25px;
 	height: 25px;
-	left: 35%;
+	left: 30%;
 }
 
 #like {
@@ -264,59 +264,24 @@ body {
 
 #headList {
 	display: inline-block;
-	margin-left: 28%;
+	margin-left: 23%;
 }
 
 .h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
 	font-size: 22px;
 	color: #655a92;
 }
 
-#btnList1 {
+.btnListItem {
 	width: 90%;
 	display: block;
 	top: 60%;
 	left: 50%;
 	transform: translate(10%, 120%);
-
 }
 
-#btnList2 {
-	width: 90%;
-	display: block;
-	top: 60%;
-	left: 50%;
-	transform: translate(10%, 120%);
-
-}
-#btnList3 {
-	width: 90%;
-	display: block;
-	top: 60%;
-	left: 50%;
-	transform: translate(10%, 120%);
-
-}
-#btnList4 {
-	width: 90%;
-	display: block;
-	top: 60%;
-	left: 50%;
-	transform: translate(10%, 120%);
-
-}
-#btnList5 {
-	width: 90%;
-	display: block;
-	top: 60%;
-	left: 50%;
-	transform: translate(10%, 120%);
-
-}
-
-#songTitleList {
+.songTitleList {
 	width: 90%;
 	height: 50px;
 	color: #655a92;
@@ -331,15 +296,16 @@ body {
 	position: relative;
 }
 
-#linkList {
+.linkList {
 	width: 23px;
 	height: 23px;
 	left: 10%;
-	background-color: #eeeff5;
+	background-color: #fff;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	border: 0;
+	background-color: #fff;
 	border-radius: 50%;
 	outline: none;
 	cursor: pointer;
@@ -349,7 +315,7 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-#likeList {
+.likeList {
 	width: 23px;
 	height: 23px;
 	left: 90%;
@@ -357,7 +323,7 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: #eeeff5;
+	background-color: #fff;
 	border-radius: 50%;
 	outline: none;
 	cursor: pointer;
